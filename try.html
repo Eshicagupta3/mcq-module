@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Thank you</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/Homepage.css">
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+<body class="fixed-sn animated fadeIn">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark elegant-color">
+            <a href="http://jssmmil.in/" class="navbar-brand" title="MMIL Website"><img src="assets/img/logo.png">
+                <p id="head">MMIL</p>
+            </a>
+    </header>
+    <main class="container animated fadeIn">
+      <div class="row">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+           <div class="jumbotron">        
+              <h1 class="h1-responsive" align="center">Thank you!!</h1>
+              <hr>
+              <p id="instruction" align="center">Your test has been submitted successfully.</p>
+           </div>
+        </div>
+      </div>
+    </main>
+
+<script type="text/javascript">
+function disableF5(e) { if ((e.which || e.keyCode) == 116 || (e.which || e.keyCode) == 82) e.preventDefault(); };
+
+$(document).ready(function(){
+	 window.onbeforeunload = function () {return false;}
+     $(document).on("keydown", disableF5);
+});
+</script>
+</body>
+</html>
